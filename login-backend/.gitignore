@@ -1,0 +1,68 @@
+# Node dependencies
+/node_modules
+
+# Environment files
+.env
+.env.*.local
+!.env.example
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+/dist
+/build
+/tmp
+
+# Coverage (tests)
+coverage/
+*.lcov
+
+# System / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# OS files
+*.swp
+*.swo
+
+# Yarn / NPM
+.yarn/*
+!.yarn/releases
+!.yarn/plugins
+!.yarn/sdks
+!.yarn/versions
+
+# Optional lockfiles
+package-lock.json
+pnpm-lock.yaml
+
+# Cache
+.cache/
+.nyc_output/
+
+# Optional PM2 logs
+.pm2/
+
+# Optional local data or JWT keys
+*.pem
+*.crt
+*.key
+
+# If using Prisma / TypeORM / Sequelize etc
+prisma/dev.db
+*.sqlite
+*.sqlite3
+
+# Miscellaneous
+*.tgz
